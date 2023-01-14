@@ -64,7 +64,9 @@ li:hover {
 }
 
 h1 {
-    padding: 18px;
+    text-align: center;
+    font-size: 2rem;
+    padding: 15px;
     background-color: #222222;
     color: #fff;
     letter-spacing: .1em;
@@ -96,6 +98,14 @@ button:hover {
     color: #fff;
 }
 
+
+/* Media queries */ 
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 2.4rem;
+    }
+}
 
 
 
